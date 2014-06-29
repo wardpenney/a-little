@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB090430196058CF00CD4559 /* StarGuyView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09042F196058CF00CD4559 /* StarGuyView.m */; };
-		DB0904331960598B00CD4559 /* KitStarGuy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0904321960598B00CD4559 /* KitStarGuy.m */; };
+		DB09043619605FF300CD4559 /* KitStarGuy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09043519605FF300CD4559 /* KitStarGuy.m */; };
 		DB72C7B81952736A003D328A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB72C7B71952736A003D328A /* Foundation.framework */; };
 		DB72C7BA1952736A003D328A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB72C7B91952736A003D328A /* CoreGraphics.framework */; };
 		DB72C7BC1952736A003D328A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB72C7BB1952736A003D328A /* UIKit.framework */; };
@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		DB09042E196058CF00CD4559 /* StarGuyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarGuyView.h; sourceTree = "<group>"; };
 		DB09042F196058CF00CD4559 /* StarGuyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarGuyView.m; sourceTree = "<group>"; };
-		DB0904311960598B00CD4559 /* KitStarGuy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitStarGuy.h; sourceTree = "<group>"; };
-		DB0904321960598B00CD4559 /* KitStarGuy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitStarGuy.m; sourceTree = "<group>"; };
+		DB09043419605FF300CD4559 /* KitStarGuy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitStarGuy.h; sourceTree = "<group>"; };
+		DB09043519605FF300CD4559 /* KitStarGuy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitStarGuy.m; sourceTree = "<group>"; };
 		DB72C7B41952736A003D328A /* ALittle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALittle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB72C7B71952736A003D328A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB72C7B91952736A003D328A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,8 +120,8 @@
 		DB72C7BD1952736A003D328A /* ALittle */ = {
 			isa = PBXGroup;
 			children = (
-				DB0904311960598B00CD4559 /* KitStarGuy.h */,
-				DB0904321960598B00CD4559 /* KitStarGuy.m */,
+				DB09043419605FF300CD4559 /* KitStarGuy.h */,
+				DB09043519605FF300CD4559 /* KitStarGuy.m */,
 				DB09042E196058CF00CD4559 /* StarGuyView.h */,
 				DB09042F196058CF00CD4559 /* StarGuyView.m */,
 				DB72C7C61952736B003D328A /* AppDelegate.h */,
@@ -264,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB72C7D11952736B003D328A /* ViewController.m in Sources */,
-				DB0904331960598B00CD4559 /* KitStarGuy.m in Sources */,
+				DB09043619605FF300CD4559 /* KitStarGuy.m in Sources */,
 				DB72C7C81952736B003D328A /* AppDelegate.m in Sources */,
 				DB72C7C41952736A003D328A /* main.m in Sources */,
 				DB090430196058CF00CD4559 /* StarGuyView.m in Sources */,

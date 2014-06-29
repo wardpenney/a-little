@@ -21,7 +21,7 @@
 
 #pragma mark Drawing Methods
 
-+ (void)drawStarGuyWithTopPointX: (CGFloat)topPointX topPointY: (CGFloat)topPointY;
++ (void)drawStarGuyWithPointAX: (CGFloat)pointAX pointAY: (CGFloat)pointAY pointBX: (CGFloat)pointBX pointBY: (CGFloat)pointBY pointCX: (CGFloat)pointCX pointCY: (CGFloat)pointCY pointDX: (CGFloat)pointDX pointDY: (CGFloat)pointDY pointEX: (CGFloat)pointEX pointEY: (CGFloat)pointEY pointFX: (CGFloat)pointFX pointFY: (CGFloat)pointFY pointGX: (CGFloat)pointGX pointGY: (CGFloat)pointGY pointHX: (CGFloat)pointHX pointHY: (CGFloat)pointHY pointIX: (CGFloat)pointIX pointIY: (CGFloat)pointIY pointJX: (CGFloat)pointJX pointJY: (CGFloat)pointJY;
 {
     //// Color Declarations
     UIColor* color1 = [UIColor colorWithRed: 0.99 green: 0.5 blue: 0.097 alpha: 1];
@@ -30,17 +30,17 @@
 
     //// Bezier Drawing
     UIBezierPath* bezierPath = UIBezierPath.bezierPath;
-    [bezierPath moveToPoint: CGPointMake(topPointX, topPointY)];
-    [bezierPath addLineToPoint: CGPointMake(208.98, 182.12)];
-    [bezierPath addLineToPoint: CGPointMake(318.5, 201.2)];
-    [bezierPath addLineToPoint: CGPointMake(239.25, 293.82)];
-    [bezierPath addLineToPoint: CGPointMake(257.96, 424.6)];
-    [bezierPath addLineToPoint: CGPointMake(160, 362.86)];
-    [bezierPath addLineToPoint: CGPointMake(62.04, 424.6)];
-    [bezierPath addLineToPoint: CGPointMake(80.75, 293.82)];
-    [bezierPath addLineToPoint: CGPointMake(1.5, 201.2)];
-    [bezierPath addLineToPoint: CGPointMake(111.02, 182.12)];
-    [bezierPath addLineToPoint: CGPointMake(topPointX, topPointY)];
+    [bezierPath moveToPoint: CGPointMake((pointAX + 1), pointAY)];
+    [bezierPath addLineToPoint: CGPointMake(pointBX, pointBY)];
+    [bezierPath addLineToPoint: CGPointMake(pointCX, pointCY)];
+    [bezierPath addLineToPoint: CGPointMake(pointDX, pointDY)];
+    [bezierPath addLineToPoint: CGPointMake(pointEX, pointEY)];
+    [bezierPath addLineToPoint: CGPointMake(pointFX, pointFY)];
+    [bezierPath addLineToPoint: CGPointMake(pointGX, pointGY)];
+    [bezierPath addLineToPoint: CGPointMake(pointHX, pointHY)];
+    [bezierPath addLineToPoint: CGPointMake(pointIX, pointIY)];
+    [bezierPath addLineToPoint: CGPointMake(pointJX, pointJY)];
+    [bezierPath addLineToPoint: CGPointMake((pointAX + 1), pointAY)];
     [bezierPath closePath];
     [color1 setFill];
     [bezierPath fill];
