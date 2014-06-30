@@ -15,7 +15,6 @@
 
 @implementation ViewController
 
-
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     //    [[CADisplayLink displayLinkWithTarget:self selector:@selector(updateFrame:)] addToRunLoop:[NSRunLoop mainRunLoop]
