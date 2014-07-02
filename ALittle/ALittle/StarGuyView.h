@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
 
 @interface StarGuyView : UIView
-@property (nonatomic, assign) CGFloat pointAX, pointAY;
+@property (nonatomic, strong) NSMutableArray* pathSourcePoints;
 @end
